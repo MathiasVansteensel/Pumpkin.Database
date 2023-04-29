@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Old\Cache.cs" />
+    <Compile Remove="Old\Database.cs" />
+    <Compile Remove="Old\DatabaseColumn.cs" />
+    <Compile Remove="Old\DatabaseSchema.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.OleDb" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Old\Cache.cs" />
+    <None Include="Old\Database.cs" />
+    <None Include="Old\DatabaseColumn.cs" />
+    <None Include="Old\DatabaseSchema.cs" />
+  </ItemGroup>
+
+</Project>

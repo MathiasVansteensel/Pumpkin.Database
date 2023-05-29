@@ -253,7 +253,7 @@ public enum CountryCode
 	ALA = 248
 }
 
-enum LanguageCode
+public enum LanguageCode
 {
 	aar,
 	abk,
@@ -759,4 +759,22 @@ enum LanguageCode
 	zun,
 	zxx,
 	zza
+}
+
+public enum Operator
+{
+	Greater,
+	GreaterEqual,
+	Less,
+	LessEqual,
+	Equal,
+	NotEqual
+}
+
+public enum AutomationType 
+{
+	DateTime,
+	String,
+	Color,
+	Number
 }

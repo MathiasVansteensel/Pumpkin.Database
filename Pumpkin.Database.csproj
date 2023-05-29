@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -9,6 +9,7 @@
   <ItemGroup>
     <Compile Remove="Old\Cache.cs" />
     <Compile Remove="Old\Database.cs" />
+    <Compile Remove="Old\Database2.cs" />
     <Compile Remove="Old\DatabaseColumn.cs" />
     <Compile Remove="Old\DatabaseSchema.cs" />
   </ItemGroup>
@@ -20,6 +21,7 @@
   <ItemGroup>
     <None Include="Old\Cache.cs" />
     <None Include="Old\Database.cs" />
+    <None Include="Old\Database2.cs" />
     <None Include="Old\DatabaseColumn.cs" />
     <None Include="Old\DatabaseSchema.cs" />
   </ItemGroup>

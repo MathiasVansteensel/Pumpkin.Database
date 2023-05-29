@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MVS.Database;
+namespace MVS.Database.Old;
 
 public class DatabaseColumn<Tvalues>
 {

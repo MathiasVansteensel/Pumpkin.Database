@@ -7,7 +7,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MVS.Database;
+namespace MVS.Database.Old;
 
 //i feel nothing but pain...
 //10 columns ought to be enough, otherwise just use the crooked method with dynamics

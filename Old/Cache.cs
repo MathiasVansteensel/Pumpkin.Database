@@ -5,7 +5,7 @@ using System.Transactions;
 using System.Xml.Serialization;
 using Timer = System.Timers.Timer;
 
-namespace MVS.Database;
+namespace MVS.Database.Old;
 
 public class Cache
 {

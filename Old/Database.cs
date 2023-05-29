@@ -2,7 +2,7 @@
 using System.Data;
 using System.Data.Common;
 
-namespace MVS.Database;
+namespace MVS.Database.Old;
 
 public enum MyEnum
 {
